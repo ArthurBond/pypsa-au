@@ -26,3 +26,15 @@ exclude_patterns = []
 
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
+
+html_short_title = "PyPSA-AU"
+
+html_theme_options = {
+    "repository_url": "https://github.com/ArthurBond/pypsa-au",
+    "use_repository_button": True,
+    "show_navbar_depth": 1,
+}
+
+# The name of an image file (relative to this directory) to place at the top
+# of the sidebar.
+html_logo = "./_static/pypsa-logo.png"
